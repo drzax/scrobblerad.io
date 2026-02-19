@@ -3,16 +3,6 @@
 
 <head>
   <title>ScrobbleRadio | scrobble awesome radio</title>
-  <!-- Matomo Tag Manager -->
-  <script>
-    var _mtm = window._mtm = window._mtm || [];
-    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-    (function() {
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://slideaway.ca/matomo/js/container_z6jWItoN.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
-  <!-- End Matomo Tag Manager -->
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
@@ -146,18 +136,6 @@
                   <div id="collapsePwa" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
                     <div class="accordion-body">
                       <p>ScrobbleRadio is what is called a Progressive Web App (PWA). It can be installed on your phone's homescreen and act similar to the way a regular phone app does. This will allow you to access ScrobbleRadio without seeing the browser URL bar and utilize the whole screen.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrivacy" aria-expanded="false" aria-controls="collapsePrivacy">
-                      Does ScrobbleRadio store any of my data?
-                    </button>
-                  </h2>
-                  <div id="collapsePrivacy" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
-                    <div class="accordion-body">
-                      <p>ScrobbleRadio uses a privacy focused analytics software called <a href="https://matomo.org/">Matomo</a>. It respects do not track user settings in browsers. It is kinda cool seeing what stations are popular and being listened to.</p>
                     </div>
                   </div>
                 </div>
@@ -314,27 +292,6 @@
   <script src="js/stations-dist.js"></script>
   <script src="js/scrobbler.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Matomo -->
-  <script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(["setDoNotTrack", true]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u = "//slideaway.ca/matomo/";
-    _paq.push(['setTrackerUrl', u + 'matomo.php']);
-    _paq.push(['setSiteId', '2']);
-    var d = document,
-      g = d.createElement('script'),
-      s = d.getElementsByTagName('script')[0];
-    g.async = true;
-    g.src = u + 'matomo.js';
-    s.parentNode.insertBefore(g, s);
-  })();
-  </script>
-  <!-- End Matomo Code -->
 
 </body>
 
